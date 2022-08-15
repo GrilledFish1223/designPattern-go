@@ -1,5 +1,5 @@
-// Package _1_singleton DESC
-package _1_singleton
+// Package singleton DESC
+package singleton
 
 // Singleton 饿汉式单例
 type Singleton struct{}
