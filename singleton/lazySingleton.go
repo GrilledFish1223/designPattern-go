@@ -9,6 +9,7 @@ var (
 )
 
 func GetLazyInstance() *Singleton {
+	// 双重检查
 	if lazySingleton == nil {
 		once.Do(func() {
 			lazySingleton = &Singleton{}
